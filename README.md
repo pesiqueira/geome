@@ -1,5 +1,10 @@
 # GeoMe Powered by React
 
+## Technologie
+
+- React v17
+- Bootstrap v4
+
 ## API Usage
 
 - Google API 

@@ -1,6 +1,6 @@
 # GeoMe Powered by React
 
-## Technologie
+## Technologies
 
 - React v17
 - Bootstrap v4

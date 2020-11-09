@@ -25,8 +25,10 @@ export default class SearchCities extends Component {
         isLoading: false
     }
 
-    weatherService = new WeatherService('0f6bf931ff9c19b1ac4a5806e1a4513c');
-    searchService = new SearchPlaceService('AIzaSyBaEm2oxWoXHfZTla4eCu4ybhcaonw0BQo');
+    // weatherService = new WeatherService('0f6bf931ff9c19b1ac4a5806e1a4513c');
+    // searchService = new SearchPlaceService('AIzaSyBaEm2oxWoXHfZTla4eCu4ybhcaonw0BQo');
+    weatherService = new WeatherService(process.env.REACT_APP_WEATHER_SERVICE_KEY);
+    searchService = new SearchPlaceService(process.env.REACT_APP_GOOGLE_SERVICE_KEY);
 
     setLoading=(isLoading)=>{
         this.setState({isLoading:isLoading});

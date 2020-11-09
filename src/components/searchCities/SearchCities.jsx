@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CityCard from '../cityCard/CityCard';
+import CityCard from '../CityCard/CityCard.jsx';
 import WeatherService from '../services/WeatherService.js';
 import SearchPlaceService from "../services/SearchPlaceService.js";
 import './SearchCities.css';

@@ -4,7 +4,7 @@
 
 1. Modules Installation
 You must to run the `npm install` to install all dependencies.
-2. Set enviroment Variables
+1. Set enviroment Variables
 You must to create or get a .env.local with API_KEY for the Google API Service and other one to Open Weather Map
 
 ## Available Scripts

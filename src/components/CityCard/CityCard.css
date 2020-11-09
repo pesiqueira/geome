@@ -1,0 +1,12 @@
+.card{
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.card-title{
+    display: flex;
+}
+
+h5{
+    align-self: center
+}

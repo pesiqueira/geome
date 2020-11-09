@@ -1,15 +1,37 @@
 #searchContainer{
     position: absolute;
     float: right;
-    right: 1rem;
+    right: 10px;
     top:5rem;
-    width:25rem;
+    width:22.5rem;
     background-color: white;
     padding: 1rem;
     text-align:left;
+    min-height: 6rem;
+    /* display: block; */
 }
 
 #search{
+    width: 100%;
+    background-color:white;
+}
+
+#cardsContainer{
+    margin-top:1rem;
+    max-height: 24rem;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+input{
     width:100%;
-    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+#clear{
+    display: flex;
+    justify-content:right;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    color: #b6b6b6;
 }

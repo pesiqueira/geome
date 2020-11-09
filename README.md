@@ -1,17 +1,24 @@
 # GeoMe Powered by React
 
+## API Usage
+
+- Google API 
+    - Maps JavaScript API - Used to generate the map
+    - Places API - Used to get the search results of cities
+
+- Open Weather Map
+    - Weather API - Call current weather data for nearby location
+
 ## Installation
 
 1. Modules Installation
 You must to run the `npm install` to install all dependencies.
-1. Set enviroment Variables
+2. Set enviroment Variables
 You must to create or get a .env.local with API_KEY for the Google API Service and other one to Open Weather Map
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-
 
 ### `npm start`
 
